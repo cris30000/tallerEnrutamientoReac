@@ -1,0 +1,12 @@
+.container {
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.title {
+  color: #444;
+}
+
+.text {
+  color: #666;
+}

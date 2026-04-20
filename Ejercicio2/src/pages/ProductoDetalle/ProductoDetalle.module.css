@@ -1,0 +1,22 @@
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 40px auto;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+/* 🔥 separa los textos */
+.card p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.card h1 {
+  margin-bottom: 15px;
+}
+
+.card strong {
+  color: #1f2937;
+}

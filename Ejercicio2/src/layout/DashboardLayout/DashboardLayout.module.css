@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  height: 100vh; /* 🔥 clave */
+}
+
+/* Sidebar fijo */
+.sidebar {
+  width: 220px;
+  background: #1f2937;
+}
+
+/* Contenido ocupa lo restante */
+.content {
+  flex: 1;
+  padding: 20px;
+  background: #f3f4f6;
+  overflow-y: auto; /* 🔥 evita que empuje el sidebar */
+}
+.sidebar {
+  width: 220px;
+  height: 100vh; /* 🔥 importante */
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 15px;
+  position: sticky; /* opcional pro */
+  top: 0;
+}
