@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 240px;
+  background: #111827;
+  color: white;
+  padding: 20px;
+}
+
+.logo {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* LINKS */
+.link {
+  color: #cbd5e1;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.link:hover {
+  background: #1f2937;
+}
+
+.active {
+  background: #2563eb;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+/* CONTENIDO */
+.content {
+  flex: 1;
+  padding: 30px;
+  background: #f3f4f6;
+}
