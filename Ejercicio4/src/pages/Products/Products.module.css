@@ -1,0 +1,19 @@
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin: 10px 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #2563eb;
+}

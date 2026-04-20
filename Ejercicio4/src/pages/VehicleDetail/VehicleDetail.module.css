@@ -1,0 +1,38 @@
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.info {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #374151;
+}
+
+.label {
+  font-weight: bold;
+  color: #111827;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  background: #2563eb;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.back:hover {
+  background: #1d4ed8;
+}

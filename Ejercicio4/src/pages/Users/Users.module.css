@@ -1,0 +1,22 @@
+.container {
+  padding: 20px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
